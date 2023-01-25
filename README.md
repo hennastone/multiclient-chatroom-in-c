@@ -1,5 +1,5 @@
 # Multiclient Chatroom
-It's a multiclient chatroom in c using sockets and multithreading. It works with a client and a server module. Server keeps the message if the target client is offline; if the client is online, it will forward the message to the client. When a client connect to the server again it will receive the messages that server kept while the client is offline.
+It's a multiclient chatroom in c that using sockets and multithreading. It works with a client and a server module. Server keeps the message if the target client is offline; if the client is online, it will forward the message to the client. When a client connect to the server again, it will receive the messages that server kept while the client is offline.
 
 ## Instructions
 * BEGIN <name>: Begin the chat session.
